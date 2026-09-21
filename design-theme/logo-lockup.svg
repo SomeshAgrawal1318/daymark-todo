@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="204" height="48" viewBox="0 0 204 48" role="img" aria-labelledby="title desc">
+  <title id="title">Daymark</title>
+  <desc id="desc">Daymark logo with a coral check mark symbol and dark wordmark.</desc>
+  <path fill="#D43A42" d="M0 6h15.2C25.6 6 34 14.4 34 24.8 34 34.3 26.3 42 16.8 42H0V6Z" transform="translate(7)"/>
+  <path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m16 24.5 5.2 5.2L33 17.9"/>
+  <text x="56" y="32" fill="#242320" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="-0.7">Daymark</text>
+</svg>

@@ -1,0 +1,15 @@
+# AI Usage Reflection
+
+## 1. How did you break down the problem before prompting?
+Since i'm most comfortable with MERN stack I broke the down the problem so it can be efficiently built with that stack. The problem is broken down into 3 subparts: requirement consolidation, frontend, and backend. requirement consolidation includes research on successfull TODO list apps so I can use some good features from those in this app to make this the most user friendly as possible in the short amount of time. For the frontend I start by building a rough sketch of the wireframes and a design theme that AI can use to build the app. Backend is first planned with the list of endpoints required for the tasks in the requirements.md file and then implemented methologically from the phases of implementation of the plan.md file. The app is then built in a bottom up approach where units with no reliance on other segments can be first implemented and then tested alongside and the features are built methododically after that and tested with integration testing. 
+
+## 2. What did the AI get wrong, and how did you fix it?
+
+The first requirements draft assumed the app is single user, which isn't right since a few people might use it without logging in, so i clarified that and now every browser gets an anonymous UUID and every database operation is scoped by that id. That keeps the lists separate from each other but i'm not calling it authentication because it isn't. I also didn't like the first pass at the API endpoints so i scrapped it and wrote a cleaner, more readable version by hand so it's easier to debug later. The first reflection it wrote ignored the four question structure that was asked for, so instead of appending another section on top of it i replaced the whole thing with this one.
+
+## 3. What did you deliberately not delegate to AI, and why?
+
+I kept scope, visual approval, the Daymark identity and the call to support anonymous users with me, since those are the parts that show my own product judgement. I'm also not handing over credential handling, and i don't take it at its word when it says tests pass, i run them and read the output myself. AI was used for researching task app patterns, proposing the requirements, making wireframes i could review, building the logo and theme system, turning the dependency order into the implementation and test plan in plan.md, and keeping the docs updated, but every unit of that still goes through my review.
+
+## 4. What would you do differently with more time?
+I'd put it in front of real users and do a proper accessibility audit instead of just eyeballing it, add end to end tests across browsers and mobile sizes, and check how it holds up with realistic API latency instead of a local server. For production i'd swap the anonymous UUID ownership for optional accounts or proper guest sessions so a list can move between devices, and add better privacy controls around that. Reminders and recurring tasks i'd only look at once the core add, edit, delete flow is stable.

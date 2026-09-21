@@ -1,0 +1,29 @@
+{
+  "name": "daymark-todo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c red,cyan \"pnpm --filter server dev\" \"pnpm --filter client dev\"",
+    "lint": "eslint .",
+    "test": "pnpm --filter server test && pnpm --filter client test",
+    "test:server": "pnpm --filter server test",
+    "test:client": "pnpm --filter client test",
+    "build": "pnpm --filter client build"
+  },
+  "dependencies": {
+    "serverless-http": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "concurrently": "^10.0.5",
+    "eslint": "^10.11.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.12.0"
+  }
+}

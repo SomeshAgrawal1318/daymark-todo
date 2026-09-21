@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light;
+
+  /* Brand */
+  --dm-accent: #d43a42;
+  --dm-accent-hover: #b92e37;
+  --dm-accent-soft: #ffe8e8;
+  --dm-on-accent: #ffffff;
+
+  /* Surfaces and text */
+  --dm-canvas: #f4f2ee;
+  --dm-surface: #fffefd;
+  --dm-surface-raised: #ffffff;
+  --dm-ink: #242320;
+  --dm-muted: #74716a;
+  --dm-border: #e1ded7;
+  --dm-soft: #efede8;
+
+  /* Meaning */
+  --dm-success: #2f7a55;
+  --dm-danger: #bd3e44;
+  --dm-warning: #9a6400;
+
+  /* Shape and rhythm */
+  --dm-radius-sm: 10px;
+  --dm-radius-md: 14px;
+  --dm-radius-lg: 18px;
+  --dm-space-unit: 4px;
+
+  /* Typography */
+  --dm-font: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

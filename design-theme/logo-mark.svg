@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">Daymark logo mark</title>
+  <desc id="desc">A coral rounded D shape containing a white check mark.</desc>
+  <path fill="#D43A42" d="M8 6h15.2C33.6 6 42 14.4 42 24.8 42 34.3 34.3 42 24.8 42H8V6Z"/>
+  <path fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m16 24.5 5.2 5.2L33 17.9"/>
+</svg>
