@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@11.19.0",
+  "packageManager": "pnpm@10.22.0",
   "engines": {
     "node": ">=20.19.0"
   },
@@ -13,7 +13,7 @@
     "test": "pnpm --filter server test && pnpm --filter client test",
     "test:server": "pnpm --filter server test",
     "test:client": "pnpm --filter client test",
-    "build": "pnpm --filter client build"
+    "build": "corepack pnpm --filter client build"
   },
   "dependencies": {
     "serverless-http": "^4.0.0"

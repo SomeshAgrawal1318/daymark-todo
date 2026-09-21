@@ -1,10 +1,9 @@
 [build]
-  command = "pnpm build"
+  command = "corepack pnpm build"
   publish = "client/dist"
 
 [build.environment]
   NODE_VERSION = "20.19.0"
-  PNPM_VERSION = "11.19.0"
 
 [functions]
   directory = "netlify/functions"

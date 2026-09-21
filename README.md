@@ -36,7 +36,7 @@ Each browser profile receives a separate task list. This is convenient anonymous
 ### Prerequisites
 
 - Node.js 20.19 or newer.
-- pnpm 11.19 or newer (`corepack enable` can provide pnpm).
+- pnpm 10.22.0 (`corepack enable` reads the pinned version from `package.json`).
 - A MongoDB connection string. MongoDB Atlas or a local MongoDB instance both work.
 
 ### Setup
