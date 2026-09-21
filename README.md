@@ -2,7 +2,7 @@
 
 Daymark is a polished, login-free MERN task manager built for the ShopBack take-home assignment. It supports complete task CRUD, completion and reopening, MongoDB persistence, search, status filters, priorities, due dates, progress, responsive layouts, and anonymous browser-level list isolation.
 
-**Live demo:** _Add the production Netlify URL here after deployment._
+**Live demo:** [daymark-todo.netlify.app](https://daymark-todo.netlify.app/)
 
 ![Daymark desktop interface](screenshots/daymark-desktop.png)
 
